@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coolors</title>
+    <link rel="stylesheet" href="surprise.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Airtel!</h1>
+        <form id="submissionForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="Adress">Adress:</label>
+            <input type="text" id="birthday" name="birthday" required>
+            
+            <label for="Contact">contact:</label>
+            <input type="number" id="birthday" name="birthday" required>
+            
+            <label for="email">Gmail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" required>
+
+           
+            <button type="submit">Submit</button>
+        </form>
+        <div id="message" class="hidden">
+            <h2>Thank You!</h2>
+            <p id="thankYouMessage"></p>
+            <div id="confetti"></div>
+        </div>
+    </div>
+    <script src="surprise.js"></script>
+</body>
+</html>
